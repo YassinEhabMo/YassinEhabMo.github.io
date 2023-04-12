@@ -9,6 +9,25 @@
         <title>Yassin Ehab</title>
     </head>
     <body>
+
+        <!--=======Scroll to top button=======-->
+        <div class="scrollToTop-btn flex-center">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <script>
+            const scrollToTopBtn  = document.querySelector(".scrollToTop-btn");
+
+            window.addEventListener("scroll", function(){
+                scrollToTopBtn.classList.toggle("active", window.scrollY > 200);
+            });
+
+            scrollToTopBtn.addEventListener("click", () => {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            })
+        </script>
+
+        <!--=======header=======-->
         <header>
             <a href="#" class="logo">Yassin</a>
             <nav class="navigation">
@@ -20,7 +39,7 @@
         </header>
         
         
-        
+        <!--=======main-section=======-->
         <section class="main">
             <div>
                 <h2>Hello, I am Yassin<br><span>Web Developer</span></h2>
