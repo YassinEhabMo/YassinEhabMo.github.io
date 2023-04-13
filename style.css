@@ -186,7 +186,7 @@ section {
     display: inline-block;
     margin-top: 10px;
     color: var(--fourth-color);
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
@@ -676,3 +676,4 @@ section {
   pointer-events: all;
   opacity: 1;
 }
+
