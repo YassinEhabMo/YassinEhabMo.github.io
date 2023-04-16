@@ -110,7 +110,7 @@ header{
 }
 
 .logoimg{
-  animation: color-rotate 10s linear infinite;
+  opacity: 0;
   animation: slideRight 1s ease forwards;
 }
 
@@ -120,13 +120,7 @@ header{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
 }
-.imglogo{
-  animation: slideRight 1s ease forwards;
-}
-
 
 .navigation a{
     color: var(--second-color);
